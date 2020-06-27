@@ -1,2 +1,2 @@
-# WeCode-Girls
-Microsoft Team Project
+# WeCode-Girls-Team
+Microsoft Mars colonization Team Project
