@@ -1,0 +1,178 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	background-color: black;
+}
+.h1m{
+	text-align: center;
+}
+.pmodify{
+	color:white;
+	font-family: cursive;
+	font-weight: bold;
+
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.h1modify{
+	color: black;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+.imgclass{
+	border-radius: 100px;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.title-image {
+  width: 90%;
+  position: absolute;
+  left: 10%;
+  border-radius: 100px;
+  padding-bottom: : 4px;
+}
+
+#title {
+  background-color: mediumslateblue;
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+h2{
+	font-weight: 1000px;
+	color: mediumslateblue;
+}
+
+header {
+	color: SlateBlue;
+	text-align: center;
+	height: 90px;
+	padding-top: 10px;
+	display:block;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	position: relative;
+	width: 100%;
+
+}
+
+p {
+	font-size: 25pt;
+	font-weight: bold;
+	font-family: cursive;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: royalblue;
+}
+
+h1{
+	color: royalblue;
+	font-family: cursive;
+}
+.amodify{
+	color: black;
+}
+
+/* ******************* Table style ******************* */
+#tab-tic-tac-toe {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	font-size: 4em;
+	font-family: Sans;
+	color: white;
+	background-color: transparent;
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+/*Column style*/
+#tab-tic-tac-toe td {
+	border-collapse:collapse;
+	border: 2px solid rgba(0, 0, 0, .3)
+}
+
+#tab-tic-tac-toe td:first-child {
+	border-left: none;
+}
+
+#tab-tic-tac-toe tr:last-child td {
+	border-bottom: none;
+}
+
+/*Cells*/
+#tab-tic-tac-toe td {
+	cursor: pointer;
+	height: 95px;
+	width: 95px;
+}
+
+#tab-tic-tac-toe td:hover {
+	background: rgba(5, 0, 23, .47);
+}
+
+/* ****************** Restart Button ****************** */
+#bnt-restart {
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	background: #00AEEA;
+	font-size: 1.5em;
+	color: black;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#testimonials {
+  text-align: center;
+  background-color:black;
+  color:Black;
+}
+#bnt-restart:hover {
+	background: #1DC5FF;
+}
+
+#bnt-restart:active {
+	background: #0787B3;
+}
+
+#bnt-restart:disabled {
+	color: #444;
+	background: #CECECE;
+}
+#footer{
+  text-align: center;
+  padding: 5% 15%;
+}
+#linked{
+	background-image: url("image1.png");
+}
